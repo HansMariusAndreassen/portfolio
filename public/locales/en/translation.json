@@ -2,5 +2,19 @@
   "Home": "Home",
   "About": "About",
   "Connect": "Contact",
-  "Language": "Language"
+  "Language": "Language",
+  "aboutMe": "About Me",
+  "aboutMeText": "Hi! My name is Hans Marius, but online, I am known as Spookyrumble. I am an enthusiastic and dedicated person working part-time as a student mentor at Noroff, a job I got while studying frontend development at Noroff.",
+  "careerBackground": "Career and Background",
+  "careerBackgroundText": "I am currently working as a student mentor at Noroff, where I assist other students in navigating their studies and developing skills in frontend development. In this role, I have developed strong mentoring and guidance skills, and I have gained experience in providing technical support and educational guidance.\n\nI have also completed several courses in customer advisory, which has given me valuable experience in customer service and communication. Previously, I have worked in the automotive industry since 2003, where I have held various roles, from mechanic and car detailer to customer service and the parts department. This broad experience has developed my technical skills and ability to handle complex problems effectively.\n\nMy experience in customer service has enabled me to communicate effectively with customers, understand their needs, and provide solutions that meet their requirements. Over the years, I have developed a strong logical and objective approach to problem-solving, and I am proficient at troubleshooting and finding solutions to technical challenges.\n\nI am also the vice-chairman of my daughter's karate club, where I contribute to the club's future plans and development. This engagement has further strengthened my leadership skills and ability to work in a team.",
+  "educationSkills": "Education and Skills",
+  "educationSkillsText": "I have a general education background and a higher vocational degree in frontend development. I approach problem-solving logically and objectively, and I am skilled at troubleshooting and finding solutions to technical challenges.\n\nI am also the student representative for frontend development at Noroff, where I represent my fellow students and contribute to improvements in the study program.",
+  "interestsHobbies": "Interests and Hobbies",
+  "interestsHobbiesText": "I love traveling and have visited all continents except Antarctica and South America. Elk hunting is a favorite activity, and I used to snowboard a lot.\n\nNowadays, I spend much of my time on technology, gaming, and coding. I am also a big fan of Star Wars and Marvel movies.",
+  "personalityWorkStyle": "Personality and Work Style",
+  "personalityWorkStyleText": "According to personality tests, I am both introverted and extroverted. In large groups of strangers, I prefer to observe, but in smaller circles with people I know, I actively participate.\n\nI love fixing things, whether alone or in a team, and find joy in working with others. One of the most rewarding jobs I've had was as a warehouse assistant, thanks to the great colleagues.",
+  "goalsAmbitions": "Goals and Ambitions",
+  "goalsAmbitionsText": "For the future, I want stability for myself and my family. I want to be a supportive father for my children throughout their upbringing.\n\nI seek a workplace that is rewarding and encouraging, where I can contribute to a positive work environment. I aim to expand my knowledge in backend development to become a full-stack developer, and perhaps one day create the perfect website that everyone needs.",
+  "motto": "Motto",
+  "mottoText": "My favorite motto is: \"I don't deal the cards, I just play them.\" This reminds me to make the best of any situation."
 }

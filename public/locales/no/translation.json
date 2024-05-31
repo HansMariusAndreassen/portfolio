@@ -2,5 +2,18 @@
   "Home": "Hjem",
   "About": "Om",
   "Connect": "Kontakt",
-  "Language": "Språk"
+  "Language": "Språk",
+  "aboutMe": "Om Meg",
+  "aboutMeText": "Hei! Jeg heter Hans Marius, men online er jeg kjent som Spookyrumble. Jeg er en entusiastisk og dedikert person som jobber deltid som studentmentor hos Noroff, en jobb jeg fikk mens jeg studerte frontend-utvikling på Noroff.",
+  "careerBackground": "Yrke og Bakgrunn",
+  "careerBackgroundText": "Jeg jobber for tiden som studentmentor ved Noroff, hvor jeg hjelper andre studenter med å navigere i sine studier og utvikle ferdigheter innen frontend-utvikling. I denne rollen har jeg utviklet sterke veilednings- og mentorferdigheter, og jeg har fått erfaring i å gi teknisk støtte og pedagogisk veiledning.\n\nJeg har også gjennomført flere kurs innen kunderådgivning, noe som har gitt meg verdifull erfaring med kundeservice og kommunikasjon. Tidligere har jeg jobbet i bilindustrien siden 2003, hvor jeg har hatt ulike roller, fra mekaniker og bildetaljer til kundeservice og deleavdelingen. Denne brede erfaringen har utviklet mine tekniske ferdigheter og evne til å håndtere komplekse problemer effektivt.\n\nMin erfaring i kundeservice har gjort meg i stand til å kommunisere effektivt med kunder, forstå deres behov og tilby løsninger som tilfredsstiller deres krav. Gjennom årene har jeg utviklet en sterk logisk og objektiv tilnærming til problemløsning, og jeg er dyktig til å feilsøke og finne løsninger på tekniske utfordringer.\n\nJeg er også nestleder i styret til datterens karateklubb, hvor vi har store planer for klubbens fremtid. Dette engasjementet har ytterligere styrket mine lederegenskaper og evne til å jobbe i team.",
+  "educationSkills": "Utdanning og Ferdigheter",
+  "educationSkillsText": "Jeg har en allmennfaglig bakgrunn og en høyere fagskolegrad i frontend-utvikling. Jeg har en logisk og objektiv tilnærming til problemløsning og er dyktig til å feilsøke og finne løsninger på tekniske utfordringer.\n\nJeg er også studentrepresentant for frontend-utvikling ved Noroff, hvor jeg representerer mine medstudenter og bidrar til forbedringer i studieprogrammet.",
+  "interestsHobbiesText": "Jeg elsker å reise og har besøkt alle kontinenter bortsett fra Antarktis og Sør-Amerika. Elgjakt er en favorittaktivitet, og tidligere stod jeg mye på snowboard.\n\nNå bruker jeg mye tid på teknologi, gaming og koding. Jeg er også en stor fan av Star Wars og Marvel-filmene.",
+  "personalityWorkStyle": "Personlighet og Arbeidsstil",
+  "personalityWorkStyleText": "Ifølge personlighetstester er jeg både introvert og ekstrovert. I store grupper med ukjente mennesker observerer jeg helst, men i mindre kretser med kjente deltar jeg aktivt.\n\nJeg elsker å reparere ting, enten alene eller i team, og finner glede i å jobbe sammen med andre. En av de mest givende jobbene jeg har hatt var som lagermedhjelper, på grunn av de fantastiske kollegaene.",
+  "goalsAmbitions": "Mål og Ambisjoner",
+  "goalsAmbitionsText": "For fremtiden ønsker jeg stabilitet for meg og familien min. Jeg vil være en støttende far for mine barn gjennom deres oppvekst.\n\nJeg søker en arbeidsplass som er givende og oppmuntrende, hvor jeg selv kan bidra til et positivt arbeidsmiljø. Jeg ønsker å utvide min kompetanse innen backend-utvikling for å bli en fullstack-utvikler, og kanskje en dag skape den perfekte nettsiden som alle vil ha.",
+  "motto": "Motto",
+  "mottoText": "Mitt favoritt-motto er: \"I don't deal the cards, I just play them.\" Dette minner meg på å gjøre det beste ut av enhver situasjon."
 }
