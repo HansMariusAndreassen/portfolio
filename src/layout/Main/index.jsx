@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 const Main = () => {
   return (
     <>
-      <main className="container mx-auto px-4">
+      <main className="max-w-screen-xl flex mt-10 justify-center">
         <Outlet />
       </main>
     </>
