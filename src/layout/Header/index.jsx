@@ -38,6 +38,9 @@ const Header = () => {
               <Link to="/connect">{t("Connect")}</Link>
             </li>
             <li>
+              <Link to="/stack">{t("Stack")}</Link>
+            </li>
+            <li>
               <LanguageSwitcher />
             </li>
           </ul>

@@ -1,0 +1,57 @@
+import {
+  bootstrapLogo,
+  cssLogo,
+  htmlLogo,
+  jsLogo,
+  reactLogo,
+  sassLogo,
+  figmaLogo,
+  gitLogo,
+  githubLogo,
+  nodeLogo,
+  npmLogo,
+  discordJsLogo,
+  wordpressLogo,
+  cypressLogo,
+  jestLogo,
+  tailwindLogo,
+  viteLogo,
+  vscLogo,
+  flutterLogo,
+} from "../assets/logos/logoExports";
+
+const icons = [
+  { src: bootstrapLogo, name: "Bootstrap", url: "https://getbootstrap.com/" },
+  { src: reactLogo, name: "React", url: "https://reactjs.org/" },
+  {
+    src: htmlLogo,
+    name: "HTML5",
+    url: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
+  },
+  {
+    src: cssLogo,
+    name: "CSS3",
+    url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  },
+  {
+    src: jsLogo,
+    name: "JavaScript",
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  { src: nodeLogo, name: "Node.js", url: "https://nodejs.org/en/" },
+  { src: sassLogo, name: "Sass", url: "https://sass-lang.com/" },
+  { src: figmaLogo, name: "Figma", url: "https://www.figma.com/" },
+  { src: gitLogo, name: "Git", url: "https://git-scm.com/" },
+  { src: githubLogo, name: "GitHub", url: "https://github.com" },
+  { src: npmLogo, name: "npm", url: "https://www.npmjs.com/" },
+  { src: discordJsLogo, name: "Discord.js", url: "https://discord.js.org/" },
+  { src: wordpressLogo, name: "WordPress", url: "https://wordpress.org/" },
+  { src: cypressLogo, name: "Cypress", url: "https://www.cypress.io/" },
+  { src: jestLogo, name: "Jest", url: "https://jestjs.io/" },
+  { src: tailwindLogo, name: "Tailwind CSS", url: "https://tailwindcss.com/" },
+  { src: viteLogo, name: "Vite", url: "https://vitejs.dev/" },
+  { src: vscLogo, name: "VS Code", url: "https://code.visualstudio.com/" },
+  { src: flutterLogo, name: "Flutter", url: "https://flutter.dev/" },
+];
+
+export default icons;

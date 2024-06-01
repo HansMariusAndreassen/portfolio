@@ -1,6 +1,7 @@
 import { useState } from "react";
-import "./aboutMe.css";
+// import "./aboutMe.css";
 import { useTranslation } from "react-i18next";
+import Carousel from "../../../../components/Carousel";
 
 const AboutMe = () => {
   const { t } = useTranslation();
@@ -110,24 +111,48 @@ const AboutMe = () => {
         ))}{" "}
       </div>
     ),
+    gallery: (
+      <div className="w-full flex justify-center">
+        <Carousel />
+      </div>
+    ),
   };
 
   const [activeCategory, setActiveCategory] = useState("aboutMe");
+  const [isTransitioning, setIsTransitioning] = useState(false);
+
+  const handleCategoryChange = (category) => {
+    setIsTransitioning(true);
+    setTimeout(() => {
+      setActiveCategory(category);
+      setIsTransitioning(false);
+    }, 200);
+  };
 
   return (
-    <div className="about-container">
-      <div className="categories">
+    <div>
+      <div className="flex justify-center flex-wrap gap-2 mb-10">
         {Object.keys(categories).map((category) => (
           <button
             key={category}
-            onClick={() => setActiveCategory(category)}
-            className={activeCategory === category ? "active" : ""}
+            onClick={() => handleCategoryChange(category)}
+            className={`px-4 py-2 border-none cursor-pointer transition-colors duration-100 ${
+              activeCategory === category
+                ? "bg-slateBlue text-white"
+                : "bg-gray-200"
+            } hover:bg-slateBlue hover:text-white`}
           >
             {t(category)}
           </button>
         ))}
       </div>
-      <div className="content">{categories[activeCategory]}</div>
+      <div
+        className={`max-w-2xl text-left transition-opacity duration-200 ${
+          isTransitioning ? "opacity-0" : "opacity-100"
+        }`}
+      >
+        {categories[activeCategory]}
+      </div>
     </div>
   );
 };
