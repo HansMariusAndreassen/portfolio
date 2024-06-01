@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import "./carousel.css";
 
 const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -24,7 +23,7 @@ const Carousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 6000);
+    }, 4000);
     return () => clearInterval(interval);
   }, [images.length]);
 
@@ -33,7 +32,7 @@ const Carousel = () => {
       {images.map((image, index) => (
         <div
           key={index}
-          className={`absolute w-full h-full bg-cover bg-center opacity-0 transition-opacity duration-2000 ease-in-out ${index === currentIndex ? "opacity-100" : ""}`}
+          className={`absolute w-full h-full bg-cover bg-center opacity-0 transition-opacity duration-2000 ease-in-out ${index === currentIndex ? "opacity-100" : "opacity-0"}`}
           style={{ backgroundImage: `url(${image})` }}
         ></div>
       ))}
