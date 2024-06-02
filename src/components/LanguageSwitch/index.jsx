@@ -24,7 +24,7 @@ const LanguageSwitcher = () => {
       <div>
         <button
           type="button"
-          className="inline-flex justify-center w-full rounded-md px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none"
+          className="inline-flex justify-center w-full rounded-md px-4 py-2 text-sm font-medium text-gray-700 hover:bg-slateBlue hover:text-white focus:outline-none"
           id="options-menu"
           aria-haspopup="true"
           aria-expanded="true"
@@ -55,14 +55,14 @@ const LanguageSwitcher = () => {
         >
           <div className="py-1 bg-white" role="none">
             <button
-              className="block px-4 py-2 text-sm text-gray-700 hover:bg-slate-200 w-full text-right"
+              className="block px-4 py-2 text-sm hover:bg-slateBlue hover:text-white w-full text-right"
               role="menuitem"
               onClick={() => changeLanguage("en")}
             >
               English
             </button>
             <button
-              className="block px-4 py-2 text-sm text-gray-700 hover:bg-slate-200 w-full text-right"
+              className="block px-4 py-2 text-sm hover:bg-slateBlue hover:text-white w-full text-right"
               role="menuitem"
               onClick={() => changeLanguage("no")}
             >

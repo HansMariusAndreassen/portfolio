@@ -1,16 +1,16 @@
 import { useTranslation } from "react-i18next";
 import { spookyLogo } from "../../assets/logos/logoExports.js";
 import LanguageSwitcher from "../../components/LanguageSwitch/index.jsx";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   const { t } = useTranslation();
 
   return (
-    <header className=" text-black">
+    <header className="text-black">
       <nav className="w-full border-b-2">
         <div className="flex justify-center gap-3"></div>
-        <div>
+        <div className="mb-7">
           <img
             className="absolute left-2/4 -translate-x-2/4 top-0 opacity-5"
             style={{ height: "auto", maxWidth: "100%" }}
@@ -28,19 +28,56 @@ const Header = () => {
         </div>
         <div>
           <ul className="flex justify-around">
-            <li className="">
-              <Link to="/">{t("Home")}</Link>
+            <li className="px-3">
+              <NavLink
+                to="/"
+                end
+                className={({ isActive }) =>
+                  `px-3 py-2 rounded transition ${
+                    isActive ? "bg-slateBlue bg-opacity-15" : ""
+                  } hover:bg-slateBlue hover:text-white`
+                }
+              >
+                {t("Home")}
+              </NavLink>
             </li>
-            <li>
-              <Link to="/about">{t("About")}</Link>
+            <li className="px-3">
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  `px-3 py-2 rounded transition ${
+                    isActive ? "bg-slateBlue bg-opacity-15" : ""
+                  } hover:bg-slateBlue hover:text-white`
+                }
+              >
+                {t("About")}
+              </NavLink>
             </li>
-            <li>
-              <Link to="/connect">{t("Connect")}</Link>
+            <li className="px-3">
+              <NavLink
+                to="/connect"
+                className={({ isActive }) =>
+                  `px-3 py-2 rounded transition ${
+                    isActive ? "bg-slateBlue bg-opacity-15" : ""
+                  } hover:bg-slateBlue hover:text-white`
+                }
+              >
+                {t("Connect")}
+              </NavLink>
             </li>
-            <li>
-              <Link to="/stack">{t("Stack")}</Link>
+            <li className="px-3">
+              <NavLink
+                to="/stack"
+                className={({ isActive }) =>
+                  `px-3 py-2 rounded transition ${
+                    isActive ? "bg-slateBlue bg-opacity-15" : ""
+                  } hover:bg-slateBlue hover:text-white`
+                }
+              >
+                {t("Stack")}
+              </NavLink>
             </li>
-            <li>
+            <li className="px-3">
               <LanguageSwitcher />
             </li>
           </ul>

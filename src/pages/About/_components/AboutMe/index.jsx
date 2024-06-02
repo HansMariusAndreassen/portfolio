@@ -1,5 +1,4 @@
 import { useState } from "react";
-// import "./aboutMe.css";
 import { useTranslation } from "react-i18next";
 import Carousel from "../../../../components/Carousel";
 
@@ -131,7 +130,7 @@ const AboutMe = () => {
 
   return (
     <div>
-      <div className="flex justify-center flex-wrap gap-2 mb-10">
+      <div className="flex flex-wrap justify-center gap-3 mb-10">
         {Object.keys(categories).map((category) => (
           <button
             key={category}
@@ -139,7 +138,7 @@ const AboutMe = () => {
             className={`px-4 py-2 border-none cursor-pointer transition-colors duration-100 ${
               activeCategory === category
                 ? "bg-slateBlue text-white"
-                : "bg-gray-200"
+                : "bg-slateBlue bg-opacity-10"
             } hover:bg-slateBlue hover:text-white`}
           >
             {t(category)}
@@ -147,11 +146,21 @@ const AboutMe = () => {
         ))}
       </div>
       <div
-        className={`max-w-2xl text-left transition-opacity duration-200 ${
-          isTransitioning ? "opacity-0" : "opacity-100"
-        }`}
+        className={
+          activeCategory !== "gallery" && activeCategory !== "galleri"
+            ? "flex items-start flex-wrap-reverse"
+            : ""
+        }
       >
-        {categories[activeCategory]}
+        <div>
+          <div
+            className={`max-w-2xl text-left transition-opacity duration-200 grow ${
+              isTransitioning ? "opacity-0" : "opacity-100"
+            }`}
+          >
+            {categories[activeCategory]}
+          </div>
+        </div>
       </div>
     </div>
   );

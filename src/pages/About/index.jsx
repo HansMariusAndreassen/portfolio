@@ -5,7 +5,7 @@ const About = () => {
   const [activeCategory, setActiveCategory] = useState("Om Meg");
 
   return (
-    <div>
+    <div className="flex">
       <AboutMe
         activeCategory={activeCategory}
         setActiveCategory={setActiveCategory}
