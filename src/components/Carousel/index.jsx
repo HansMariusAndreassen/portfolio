@@ -4,10 +4,10 @@ const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const images = [
-    "/pictures/44626_10150233061680372_1224988_n.jpg",
-    "/pictures/46030_10150233053485372_1378230_n.jpg",
     "/pictures/61253_10150249983080372_1604664_n.jpg",
     "/pictures/222365_7783545371_195_n.jpg",
+    "/pictures/44626_10150233061680372_1224988_n.jpg",
+    "/pictures/46030_10150233053485372_1378230_n.jpg",
     "/pictures/521332_10152611507780372_1183235328_n.jpg",
     "/pictures/793717_10152581480350372_772192067_o.jpg",
     "/pictures/901686_10152767433670372_184850047_o.jpg",
