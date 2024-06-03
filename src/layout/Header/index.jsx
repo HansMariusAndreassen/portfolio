@@ -81,6 +81,19 @@ const Header = () => {
                 {t("About")}
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                to="/projects"
+                className={({ isActive }) =>
+                  `block md:inline px-3 py-2 rounded transition ${
+                    isActive ? "bg-slateBlue bg-opacity-15" : ""
+                  } hover:bg-slateBlue hover:text-white`
+                }
+                onClick={handleLinkClick}
+              >
+                {t("Projects")}
+              </NavLink>
+            </li>
             <li className="px-3 py-2">
               <NavLink
                 to="/connect"
