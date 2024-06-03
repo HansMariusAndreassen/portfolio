@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /scripts/
+Disallow: /private/
+
+# Allow search engines to access the public parts of the site
+Allow: /
+
+# Sitemap location
+Sitemap: https://hans-m-andreassen-portfolio.netlify.app/sitemap.xml

@@ -1,8 +1,15 @@
+import { useState } from "react";
+import AboutMe from "./_components/AboutMe";
+
 const About = () => {
+  const [activeCategory, setActiveCategory] = useState("Om Meg");
+
   return (
-    <div>
-      <h1>About</h1>
-      <p>This is the about page</p>
+    <div className="flex">
+      <AboutMe
+        activeCategory={activeCategory}
+        setActiveCategory={setActiveCategory}
+      />
     </div>
   );
 };
