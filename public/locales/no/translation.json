@@ -1,4 +1,5 @@
 {
+  "frontend": "Frontend Utvikler",
   "Home": "Hjem",
   "About": "Om Meg",
   "Projects": "Prosjekter",
@@ -21,5 +22,30 @@
   "gallery": "Galleri",
   "welcome": "Velkommen til min hjemmeside!",
   "welcomeText": "Jeg er en entusiastisk og dedikert person, med spesialisering i frontend utvikling.\n\nJeg håper du finner informasjonen her nyttig og engasjerende. Føl deg fri til å utforske.",
-  "thankYou": "Takk for at du besøkte!"
+  "thankYou": "Takk for at du besøkte!",
+  "builtWith": "Bygget med",
+  "links": "Lenker",
+  "rainydays": {
+    "description": "Det første prosjektet fra skolen som vi jobbet med det første året. Oppgaven var å lage en nettside for en fiktiv bedrift som solgte regntøy."
+  },
+  "csm": {
+    "description": "For dette prosjektet fikk vi i oppgave å designe og utvikle en nettside for samfunnsvitenskapsmuseet. Målgruppen var barn i alderen 7-15 år. Vi fikk tekst og bilder, men farger, skrifttyper og design var opp til oss å lage og designe. Jeg valgte en fargepalett som gikk for et mørkt tema, men også med lyse og livlige farger, og for skrifttyper ønsket jeg å gå litt annerledes, så jeg parret Alegreya med Nunito med inspirasjon fra Figma-samfunnet."
+  },
+  "itt": {
+    "description": "Dette er eksamensprosjektet mitt for det første året med frontend-utviklingsstudier. Det er en bloggside laget for dette formålet, og alt du leser og ser er fiktivt. Denne siden bruker WordPress REST API for å hente innholdet sitt. Dette prosjektet er laget for å vise frem ferdighetene og evnene vi har oppnådd i løpet av dette første året med studier."
+  },
+  "connotation": {
+    "description": "Dette prosjektet er en utvidelse av en Bootstrap-oppgave der vi har integrert JavaScript for å forbedre funksjonaliteten til et sosialt medie-nettsted. Den opprinnelige oppgaven brukte primært Bootstrap, og vi har utvidet den ved å inkludere JavaScript-funksjoner."
+  },
+  "cyberstore": {
+    "description": "Min første introduksjon til å bygge med React. Stylet med Styled-Components."
+  },
+  "adling": {
+    "description": "Et morsomt prosjekt med en bot som henter stillingsannonser fra en nettside og legger dem ut på en Discord-server.",
+    "demoNotes": "Satt opp for å fungere på min Discord-server. Vennligst les README.md for mer informasjon."
+  },
+  "flutter": {
+    "description": "Et Pong-lignende spill jeg bygde med Flutter.",
+    "demoNotes": "Krever nedlasting og utpakking av zip-filen. Kjør .exe-filen for å spille spillet."
+  }
 }

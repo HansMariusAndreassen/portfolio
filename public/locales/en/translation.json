@@ -1,4 +1,5 @@
 {
+  "frontend": "Front-End Developer",
   "Home": "Home",
   "About": "About Me",
   "Projects": "Projects",
@@ -21,5 +22,39 @@
   "gallery": "Gallery",
   "welcome": "Welcome to my homepage!",
   "welcomeText": "I am an enthusiastic and dedicated person, specializing in Front-End Development.\n\nI hope you find the information here useful and engaging. Feel free to explore.",
-  "thankYou": "Thank you for visiting!"
+  "thankYou": "Thank you for visiting!",
+  "builtWith": "Built with",
+  "links": "Links",
+  "rainydays": {
+    "description": "The first project from school that we worked on in the first year. The task was to create a website for a fictional company that sold rainwear."
+  },
+  "csm": {
+    "description": "For this project we were tasked to design and develop a web page for the community science museum. Targeting ages 7-15 year olds. We were given text and images but colors, fonts and design was all up to us to create and design. I chose a color palette going for a dark theme but also with bright and vivid colors and for fonts I wanted to go a bit different so I paired Alegreya with Nunito with inspiration from the Figma community."
+  },
+  "itt": {
+    "description": "This is my exam project for my first year front-end development studies. It is a blog page created for this reason and everything you read and see is fictional. This site uses wordpress REST API to fetch its content. This project is made to showcase the capabilities and skills we have acquired over this first year of studies."
+  },
+  "connotation": {
+    "description": "This project is an extension of a Bootstrap assignment where we have integrated JavaScript to enhance the functionality of a social media website. The original assignment primarily utilized Bootstrap, and we have extended it by incorporating JavaScript features.",
+    "demoNotes": "NB! Requires a login. Use email: invitedguest@noroff.no, Password: socialmedia"
+  },
+  "onlypineapples": {
+    "description": "An Auction site built using Bootstrap and SASS. This project also has Jest Unit testing and E2E testing.",
+    "demoNotes": "NB! Requires a login. Use email: invitedguest@noroff.no, Password: auctionhouse"
+  },
+  "cyberstore": {
+    "description": "My first introduction to building with React. Styled with Styled-Components."
+  },
+  "adling": {
+    "description": "A fun project bot that pulls job listings from a website and posts them to a Discord server.",
+    "demoNotes": "Set up to work on my discord server. Please read README.md for more information."
+  },
+  "flutter": {
+    "description": "A Pong-like game I built using Flutter.",
+    "demoNotes": "Requires download and unpacking of the zip file. Run the .exe file to play the game."
+  },
+  "havens": {
+    "description": "Havens er et prosjekt utviklet som en del av eksamen i Front-End Development. Prosjektet har som mål å demonstrere ferdigheter i webutvikling ved bruk av moderne verktøy og rammeverk, og å anvende ferdighetene lært over de siste to årene i et omfattende prosjekt.",
+    "demoNotes": "NB! Krever innlogging. Bruk e-post: invitedguest@stud.noroff.no, Passord: 1Havenshavens"
+  }
 }

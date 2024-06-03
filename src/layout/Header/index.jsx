@@ -33,11 +33,11 @@ const Header = () => {
   };
 
   return (
-    <header className="text-black">
+    <header className="pt-4">
       <nav className="w-full border-b-2">
         <div className="flex flex-col items-center p-4 relative">
           <img
-            className="fixed opacity-5 -z-10"
+            className="fixed opacity-10 -z-10"
             style={{ height: "auto", maxWidth: "90vw" }}
             src={spookyLogo}
             alt="Spooky Logo"
@@ -48,6 +48,12 @@ const Header = () => {
           >
             Hans Marius Andreassen
           </h1>
+          <h2
+            className="whitespace-nowrap text-gray-600 text-shadow-slateblue text-2xl sm:text-4xl md:text-5xl md:-mt-2 lg:-mt-6 xl:-mt-8"
+            style={{ maxWidth: "100vw" }}
+          >
+            {t("frontend")}
+          </h2>
           <div className="absolute right-4 top-4 md:hidden">
             <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} />
           </div>
