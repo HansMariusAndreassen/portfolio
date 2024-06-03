@@ -37,7 +37,7 @@ const Header = () => {
       <nav className="w-full border-b-2">
         <div className="flex flex-col items-center p-4 relative">
           <img
-            className="fixed opacity-5 "
+            className="fixed opacity-5 -z-10"
             style={{ height: "auto", maxWidth: "90vw" }}
             src={spookyLogo}
             alt="Spooky Logo"
