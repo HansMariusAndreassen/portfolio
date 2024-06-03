@@ -4,6 +4,7 @@
   "About": "Om Meg",
   "Projects": "Prosjekter",
   "Connect": "Kontakt",
+  "connectWithMe": "Ta kontakt!",
   "Language": "Språk",
   "aboutMe": "Om Meg",
   "aboutMeText": "Hei! Mitt navn er Hans Marius, men på nettet er jeg kjent som Spookyrumble. Jeg er en entusiastisk og dedikert person som jobber deltid som studentmentor på Noroff, en jobb jeg fikk mens jeg studerte frontend-utvikling ved Noroff. Jeg har en lidenskap for teknologi og liker å løse komplekse problemer gjennom kreative kodingsløsninger.\n\nUtenom arbeid og studier er jeg en ivrig gamer, spesielt glad i rollespill og strategispill. Jeg elsker å fordype meg i nye spillverdener og oppleve deres historier og utfordringer. I tillegg til gaming liker jeg fotturer og å tilbringe tid i naturen, hvor jeg finner ro og inspirasjon.\n\nFamilie er en stor del av livet mitt. Jeg har en fantastisk kone, og sammen har vi tre barn og to hunder. Mye av tiden min går med til familien, hvor vi nyter aktiviteter og skaper minner sammen.\n\nVenner vil beskrive meg som nysgjerrig, motivert og alltid klar til å hjelpe til. Jeg tror på kontinuerlig læring og streber etter å forbedre meg selv hver dag, enten det er å mestre et nytt programmeringsspråk eller utforske en ny hobby. Jeg drives av et ønske om å innovere og gjøre en positiv innvirkning gjennom teknologi.",
@@ -22,7 +23,7 @@
   "gallery": "Galleri",
   "welcome": "Velkommen til min hjemmeside!",
   "welcomeText": "Jeg er en entusiastisk og dedikert person, med spesialisering i frontend utvikling.\n\nJeg håper du finner informasjonen her nyttig og engasjerende. Føl deg fri til å utforske.",
-  "thankYou": "Takk for besøket!",
+  "thankYou": "Takk for at du kom!",
   "builtWith": "Bygget med",
   "links": "Lenker",
   "rainydays": {

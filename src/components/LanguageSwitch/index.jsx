@@ -24,7 +24,7 @@ const LanguageSwitcher = () => {
       <div>
         <button
           type="button"
-          className="inline-flex justify-center w-full rounded-md px-4 py-2 text-sm font-medium text-gray-700 hover:bg-slateBlue hover:text-white focus:outline-none"
+          className="inline-flex justify-center w-full rounded-md px-4 py-2 text-sm font-medium hover:bg-slateBlue hover:text-white focus:outline-none"
           id="options-menu"
           aria-haspopup="true"
           aria-expanded="true"
@@ -53,7 +53,7 @@ const LanguageSwitcher = () => {
           aria-orientation="vertical"
           aria-labelledby="options-menu"
         >
-          <div className="py-1 bg-white" role="none">
+          <div className="py-1 bg-white text-black" role="none">
             <button
               className="block px-4 py-2 text-sm hover:bg-slateBlue hover:text-white w-full text-right"
               role="menuitem"
