@@ -51,7 +51,7 @@ const Header = () => {
             Hans Marius Andreassen
           </h1>
           <h2
-            className="whitespace-nowrap text-shadow-slateblue text-2xl sm:text-4xl md:text-5xl md:-mt-2 lg:-mt-6 xl:-mt-8"
+            className="tracking-widest text-shadow-slateblue text-2xl sm:text-4xl md:text-5xl md:-mt-2 lg:-mt-6 xl:-mt-8"
             style={{ maxWidth: "100vw" }}
           >
             {t("frontend")}
@@ -61,7 +61,7 @@ const Header = () => {
           </div>
         </div>
         <div ref={menuRef} className={`md:flex ${isOpen ? "block" : "hidden"}`}>
-          <ul className="flex flex-col md:flex-row justify-around items-center w-full">
+          <ul className="flex flex-col md:flex-row justify-around items-center w-full tracking-widest">
             <li className="px-3 py-2">
               <NavLink
                 to="/"

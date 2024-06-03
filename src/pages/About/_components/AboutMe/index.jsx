@@ -135,7 +135,7 @@ const AboutMe = () => {
           <button
             key={category}
             onClick={() => handleCategoryChange(category)}
-            className={`px-4 py-2 border-none cursor-pointer transition-colors duration-100 ${
+            className={`px-4 py-2 border-none cursor-pointer transition-colors duration-100 tracking-wide ${
               activeCategory === category
                 ? "bg-slateBlue text-white rotate-3"
                 : "bg-slateBlue bg-opacity-10 dark:bg-opacity-30"
@@ -154,7 +154,7 @@ const AboutMe = () => {
       >
         <div>
           <div
-            className={`max-w-2xl text-left transition-opacity duration-200 grow ${
+            className={`max-w-2xl text-left transition-opacity duration-200 grow tracking-wide ${
               isTransitioning ? "opacity-0" : "opacity-100"
             }`}
           >
