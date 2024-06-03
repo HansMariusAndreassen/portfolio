@@ -14,7 +14,7 @@ const Projects = () => {
           {projectList.reverse().map((project, index) => (
             <div
               key={index}
-              className="bg-slateBlue bg-opacity-5 shadow-lg rounded-md p-4 min-w-[320px] max-w-[400px] flex-wrap"
+              className="bg-slateBlue bg-opacity-5 dark:bg-opacity-30 dark:shadow-white shadow-lg rounded-md p-4 min-w-[320px] max-w-[400px] flex-wrap"
             >
               <h2 className="text-lg font-semibold mb-4">{project.title}</h2>
               <p>{project.description}</p>
@@ -33,7 +33,7 @@ const Projects = () => {
                 </div>
                 <h3>{t("links")}:</h3>
                 <div className="flex justify-center m-4">
-                  <div className="p-2 rounded shadow-lg hover:bg-slateBlue hover:text-white hover:rotate-6 transition ease-in-out duration-200">
+                  <div className="p-2 rounded shadow-lg hover:bg-slateBlue hover:text-white dark:shadow-white hover:rotate-6 transition ease-in-out duration-200">
                     <a href={project.link} target="_blank" rel="noreferrer">
                       <FaGithub size={24} />
                       <p>Repository</p>
@@ -44,7 +44,7 @@ const Projects = () => {
                       href={project.demo}
                       target="_blank"
                       rel="noreferrer"
-                      className="text-slateBlue shadow-lg p-2 rounded hover:bg-slateBlue hover:text-white hover:rotate-6 transition ease-in-out duration-200"
+                      className="shadow-lg p-2 rounded hover:bg-slateBlue dark:shadow-white hover:text-white hover:rotate-6 transition ease-in-out duration-200"
                     >
                       <FaExternalLinkAlt size={24} /> Demo
                     </a>

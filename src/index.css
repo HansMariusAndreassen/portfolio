@@ -9,6 +9,9 @@
   max-width: 1280px;
   margin: auto;
 }
+.dark body {
+  background-color: #1d1d1d;
+}
 
 h1,
 h2,

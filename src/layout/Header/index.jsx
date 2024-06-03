@@ -1,14 +1,16 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useContext } from "react";
 import { useTranslation } from "react-i18next";
 import { spookyLogo } from "../../assets/logos/logoExports.js";
 import LanguageSwitcher from "../../components/LanguageSwitch/index.jsx";
 import { NavLink } from "react-router-dom";
 import Hamburger from "hamburger-react";
+import ThemeContext from "../../Theme/index.jsx";
 
 const Header = () => {
   const { t } = useTranslation();
   const [isOpen, setOpen] = useState(false);
   const menuRef = useRef(null);
+  const { theme, toggleTheme } = useContext(ThemeContext);
 
   const handleClickOutside = (event) => {
     if (menuRef.current && !menuRef.current.contains(event.target)) {
@@ -43,13 +45,13 @@ const Header = () => {
             alt="Spooky Logo"
           />
           <h1
-            className="animate-float whitespace-nowrap text-gray-600 text-shadow-slateblue"
+            className="animate-float whitespace-nowrap text-shadow-slateblue"
             style={{ fontSize: `6vw`, maxWidth: "100vw" }}
           >
             Hans Marius Andreassen
           </h1>
           <h2
-            className="whitespace-nowrap text-gray-600 text-shadow-slateblue text-2xl sm:text-4xl md:text-5xl md:-mt-2 lg:-mt-6 xl:-mt-8"
+            className="whitespace-nowrap text-shadow-slateblue text-2xl sm:text-4xl md:text-5xl md:-mt-2 lg:-mt-6 xl:-mt-8"
             style={{ maxWidth: "100vw" }}
           >
             {t("frontend")}
@@ -128,6 +130,26 @@ const Header = () => {
             </li>
             <li className="px-3 py-2">
               <LanguageSwitcher />
+            </li>
+            <li className="px-3 py-2">
+              <label className="inline-flex items-center cursor-pointer">
+                <input
+                  type="checkbox"
+                  className="hidden"
+                  checked={theme === "dark"}
+                  onChange={toggleTheme}
+                />
+                <span className="relative">
+                  <span className="block w-10 h-6 bg-gray-400 rounded-full shadow-inner"></span>
+                  <span
+                    className={`absolute block w-4 h-4 mt-1 ml-1 rounded-full shadow inset-y-0 left-0 focus-within:shadow-outline transform ${
+                      theme === "dark"
+                        ? "translate-x-full bg-black"
+                        : "bg-white"
+                    } transition-transform duration-200 ease-in-out`}
+                  ></span>
+                </span>
+              </label>
             </li>
           </ul>
         </div>

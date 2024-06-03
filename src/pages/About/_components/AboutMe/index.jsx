@@ -137,8 +137,8 @@ const AboutMe = () => {
             onClick={() => handleCategoryChange(category)}
             className={`px-4 py-2 border-none cursor-pointer transition-colors duration-100 ${
               activeCategory === category
-                ? "bg-slateBlue text-white"
-                : "bg-slateBlue bg-opacity-10"
+                ? "bg-slateBlue text-white rotate-3"
+                : "bg-slateBlue bg-opacity-10 dark:bg-opacity-30"
             } hover:bg-slateBlue hover:text-white`}
           >
             {t(category)}
