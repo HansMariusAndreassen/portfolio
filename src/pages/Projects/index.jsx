@@ -8,7 +8,6 @@ const Projects = () => {
 
   return (
     <div className="w-full">
-      <h1 className="text-xl text-center w-full mb-10">{t("Projects")}</h1>
       <div className="max-w-4xl">
         <div className="flex flex-col flex-wrap gap-10">
           {projectList.reverse().map((project, index) => (
@@ -16,9 +15,9 @@ const Projects = () => {
               key={index}
               className="bg-slateBlue bg-opacity-5 dark:bg-opacity-20 dark:shadow-white shadow-sm rounded-md p-4 max-w-screen flex-wrap"
             >
-              <h2 className="text-xl uppercase font-semibold mb-4 tracking-wide">
+              <h1 className="text-xl uppercase font-semibold mb-4 tracking-wide">
                 {project.title}
-              </h2>
+              </h1>
               <p className="tracking-wide">{project.description}</p>
               <h3 className="mt-6 mb-1 tracking-wide">
                 {t("keyFeaturesHeader")}:
