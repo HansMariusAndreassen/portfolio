@@ -16,12 +16,14 @@ const Home = () => {
         <h1 className="text-4xl text-center font-bold mb-2">{t("welcome")}</h1>
         <p className=" max-w-xl mx-auto mb-6">{t("welcomeText")}</p>
       </div>
-      <img
-        src={profileImage}
-        alt="Profile"
-        className="mb-8 rounded-sm border-slateBlue border-t-4 border-l-4 shadow-lg"
-        style={{ height: "300", width: "300px" }}
-      />
+      <div>
+        <img
+          src={profileImage}
+          alt="Profile"
+          className="mb-8 border-slateBlue border-t-4 border-l-4 shadow-lg"
+          style={{ width: "296px", height: "308px" }}
+        />
+      </div>
       <div className="text-center p-8 rounded-lg">
         <h1 className="text-4xl font-bold mb-2">{t("thankYou")}</h1>
       </div>
