@@ -21,7 +21,7 @@ const projects = (t) => [
   {
     title: "Rainydays",
     description: t("rainydays.description"),
-    image: "https://via.placeholder.com/150",
+    image: "/public/pictures/rainydays_ss-compressed.jpg",
     link: "https://github.com/HMAsp/HTML-CSS_CA_HMA_2022",
     builtWith: [
       { src: figmaLogo, title: "Figma", alt: "Figma Logo" },
@@ -35,7 +35,7 @@ const projects = (t) => [
   {
     title: "Community Science Museum",
     description: t("csm.description"),
-    image: "https://via.placeholder.com/150",
+    image: "/public/pictures/csm_ss-compressed.jpg",
     link: "https://github.com/Spookyrumble/Semester_project1",
     builtWith: [
       { src: figmaLogo, title: "Figma", alt: "Figma Logo" },
@@ -47,7 +47,7 @@ const projects = (t) => [
   {
     title: "Inside The Trip",
     description: t("itt.description"),
-    image: "https://via.placeholder.com/150",
+    image: "/public/pictures/insidethetrip_ss-compressed.jpg",
     link: "https://www.google.com",
     builtWith: [
       { src: figmaLogo, title: "Figma", alt: "Figma Logo" },
@@ -61,7 +61,7 @@ const projects = (t) => [
   {
     title: "Connotation",
     description: t("connotation.description"),
-    image: "https://via.placeholder.com/150",
+    image: "/public/pictures/connotation_ss.png",
     link: "https://github.com/Spookyrumble/css-frameworks-ca",
     builtWith: [
       { src: figmaLogo, title: "Figma", alt: "Figma Logo" },
@@ -76,7 +76,7 @@ const projects = (t) => [
   {
     title: "OnlyPineapples",
     description: t("onlypineapples.description"),
-    image: "https://via.placeholder.com/150",
+    image: "/public/pictures/onlypineapples_ss-compressed.jpg",
     link: "https://github.com/Spookyrumble/Auction",
     builtWith: [
       { src: figmaLogo, title: "Figma", alt: "Figma Logo" },
@@ -93,7 +93,7 @@ const projects = (t) => [
   {
     title: "Cyberstore",
     description: t("cyberstore.description"),
-    image: "https://via.placeholder.com/150",
+    image: "/public/pictures/cyberstore_ss-compressed.jpg",
     link: "https://github.com/Spookyrumble/Auction",
     builtWith: [
       { src: figmaLogo, title: "Figma", alt: "Figma Logo" },
@@ -106,7 +106,7 @@ const projects = (t) => [
   {
     title: "Adling",
     description: t("adling.description"),
-    image: "https://via.placeholder.com/150",
+    image: "/public/pictures/discordjs_ss.png",
     link: "https://github.com/Spookyrumble/AdLing",
     builtWith: [
       { src: discordJsLogo, title: "Discord.js", alt: "Discord.js Logo" },
@@ -115,7 +115,7 @@ const projects = (t) => [
   {
     title: "Not-Pong",
     description: t("flutter.description"),
-    image: "https://via.placeholder.com/150",
+    image: "/public/pictures/flutter_ss-compressed.jpg",
     link: "https://github.com/Spookyrumble/Flutter-game",
     builtWith: [{ src: flutterLogo, title: "Flutter", alt: "Flutter Logo" }],
     demo: t("flutter.demoNotes"),
@@ -124,7 +124,7 @@ const projects = (t) => [
   {
     title: "Havens",
     description: t("havens.description"),
-    image: "https://via.placeholder.com/150",
+    image: "/public/pictures/havens_ss-compressed.jpg",
     link: "https://github.com/Spookyrumble/Project-Exam-2",
     builtWith: [
       { src: figmaLogo, title: "Figma", alt: "Figma Logo" },
