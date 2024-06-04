@@ -30,7 +30,7 @@ const Projects = () => {
               </div>
               <div>
                 <h2>{t("builtWith")}:</h2>
-                <div className="flex flex-wrap justify-start">
+                <div className="flex flex-wrap gap-3">
                   {project.builtWith.map((icon, index) => (
                     <div key={index} className="my-4">
                       <img
