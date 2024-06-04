@@ -19,24 +19,23 @@ const Header = () => {
   };
 
   useEffect(() => {
-    if (isOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
-    } else {
-      document.removeEventListener("mousedown", handleClickOutside);
-    }
-
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
-  }, [isOpen]);
+  }, []);
 
   const handleLinkClick = () => {
     setOpen(false);
   };
 
+  const handleToggle = (toggled) => {
+    setOpen(toggled);
+  };
+
   return (
     <header className="pt-4">
-      <nav className="w-full border-b-2">
+      <nav className="w-full border-b-2" ref={menuRef}>
         <div className="flex flex-col items-center p-4 relative">
           <img
             className="fixed opacity-10 -z-10"
@@ -56,12 +55,11 @@ const Header = () => {
           >
             {t("frontend")}
           </h2>
-          <div className="absolute right-4 top-4 md:hidden">
-            <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} />
+          <div className="absolute right-4 top-4 md:hidden ">
+            <Hamburger toggled={isOpen} toggle={handleToggle} />
           </div>
         </div>
         <div
-          ref={menuRef}
           className={`md:flex ${isOpen ? "block" : "hidden"}`}
           aria-label="Burger menu"
         >
