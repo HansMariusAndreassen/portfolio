@@ -5,7 +5,6 @@ const Footer = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Check if the user has scrolled to the bottom
       if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
         setIsVisible(true);
       } else {
@@ -23,7 +22,7 @@ const Footer = () => {
         isVisible ? "opacity-100" : "opacity-0"
       }`}
     >
-      <p className="text">&copy; Hans Marius Andreassen - 2024</p>
+      <p className="text">&copy; HMA - 2024</p>
     </footer>
   );
 };

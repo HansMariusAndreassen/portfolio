@@ -14,12 +14,20 @@ const Projects = () => {
           {projectList.reverse().map((project, index) => (
             <div
               key={index}
-              className="bg-slateBlue bg-opacity-5 dark:bg-opacity-30 dark:shadow-white shadow-sm rounded-md p-4 max-w-screen flex-wrap"
+              className="bg-slateBlue bg-opacity-5 dark:bg-opacity-20 dark:shadow-white shadow-sm rounded-md p-4 max-w-screen flex-wrap"
             >
               <h2 className="text-xl uppercase font-semibold mb-4 tracking-wide">
                 {project.title}
               </h2>
               <p className="tracking-wide">{project.description}</p>
+              <h3 className="mt-6 mb-1 tracking-wide">
+                {t("keyFeaturesHeader")}:
+              </h3>
+              <ul className="list-disc list-inside tracking-wide">
+                {project.keyFeatures.map((feature, featureIndex) => (
+                  <li key={featureIndex}>{feature}</li>
+                ))}
+              </ul>
               <div>
                 <img
                   src={project.image}
@@ -46,7 +54,7 @@ const Projects = () => {
                 </div>
                 <h3>{t("links")}:</h3>
                 <div className="flex justify-center m-4">
-                  <div className="p-2 rounded shadow-md hover:bg-slateBlue hover:text-white dark:shadow-white hover:shadow-lg hover:rotate-6 transition ease-in-out duration-200">
+                  <div className="p-2 rounded shadow-md hover:bg-slateBlue hover:text-white dark:shadow-gray-500 hover:shadow-lg hover:rotate-6 transition ease-in-out duration-200">
                     <a href={project.link} target="_blank" rel="noreferrer">
                       <FaGithub size={24} />
                       <p>Repository</p>
@@ -57,7 +65,7 @@ const Projects = () => {
                       href={project.demo}
                       target="_blank"
                       rel="noreferrer"
-                      className="shadow-md p-2 rounded hover:bg-slateBlue dark:shadow-white hover:shadow-lg hover:text-white hover:rotate-6 transition ease-in-out duration-200"
+                      className="shadow-md p-2 rounded hover:bg-slateBlue dark:shadow-gray-500 hover:shadow-lg hover:text-white hover:rotate-6 transition ease-in-out duration-200"
                     >
                       <FaExternalLinkAlt size={24} /> Demo
                     </a>
