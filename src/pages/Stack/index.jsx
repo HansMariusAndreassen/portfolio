@@ -7,7 +7,7 @@ const Stack = () => {
         {icons.map((icon, index) => (
           <div
             key={index}
-            className="flex flex-col items-center transition-all duration-100 ease-in-out cursor-pointer bg-slateBlue shadow-md bg-opacity-10 dark:bg-opacity-40 dark:shadow-white p-4 hover:shadow-lg rounded-lg hover:origin-center hover:rotate-6"
+            className="flex flex-col items-center transition-all duration-100 ease-in-out cursor-pointer bg-slateBlue shadow-md bg-opacity-10 dark:bg-opacity-40 dark:shadow-white p-4 hover:shadow-lg rounded-lg hover:rotate-3"
             onClick={() =>
               window.open(icon.url, "_blank", "noopener noreferrer")
             }

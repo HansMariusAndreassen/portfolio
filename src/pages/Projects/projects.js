@@ -31,6 +31,7 @@ const projects = (t) => [
       { src: wordpressLogo, title: "WordPress", alt: "WordPress Logo" },
     ],
     demo: "",
+    keyFeatures: t("rainydays.keyFeatures", { returnObjects: true }),
   },
   {
     title: "Community Science Museum",
@@ -43,6 +44,7 @@ const projects = (t) => [
       { src: cssLogo, title: "CSS", alt: "CSS Logo" },
     ],
     demo: "",
+    keyFeatures: t("csm.keyFeatures", { returnObjects: true }),
   },
   {
     title: "Inside The Trip",
@@ -57,6 +59,7 @@ const projects = (t) => [
       { src: wordpressLogo, title: "WordPress", alt: "WordPress Logo" },
     ],
     demo: "",
+    keyFeatures: t("itt.keyFeatures", { returnObjects: true }),
   },
   {
     title: "Connotation",
@@ -72,6 +75,7 @@ const projects = (t) => [
     ],
     demo: "https://css-framework-js2.netlify.app/",
     demoNotes: t("connotation.demoNotes"),
+    keyFeatures: t("connotation.keyFeatures", { returnObjects: true }),
   },
   {
     title: "OnlyPineapples",
@@ -89,6 +93,7 @@ const projects = (t) => [
     ],
     demo: "https://hma-sp2-onlypineapples.netlify.app/",
     demoNotes: t("onlypineapples.demoNotes"),
+    keyFeatures: t("onlypineapples.keyFeatures", { returnObjects: true }),
   },
   {
     title: "Cyberstore",
@@ -103,6 +108,7 @@ const projects = (t) => [
     ],
     demo: "https://areactecom.netlify.app/",
     demoNotes: t("cyberstore.demoNotes"),
+    keyFeatures: t("cyberstore.keyFeatures", { returnObjects: true }),
   },
   {
     title: "Adling",
@@ -113,6 +119,7 @@ const projects = (t) => [
       { src: discordJsLogo, title: "Discord.js", alt: "Discord.js Logo" },
     ],
     demoNotes: t("adling.demoNotes"),
+    keyFeatures: t("adling.keyFeatures", { returnObjects: true }),
   },
   {
     title: "Not-Pong",
@@ -122,6 +129,7 @@ const projects = (t) => [
     builtWith: [{ src: flutterLogo, title: "Flutter", alt: "Flutter Logo" }],
     demo: t("flutter.demoNotes"),
     demoNotes: t("flutter.demoNotes"),
+    keyFeatures: t("flutter.keyFeatures", { returnObjects: true }),
   },
   {
     title: "Havens",
@@ -140,6 +148,7 @@ const projects = (t) => [
     ],
     demo: "https://project-havens.netlify.app/",
     demoNotes: t("havens.demoNotes"),
+    keyFeatures: t("havens.keyFeatures", { returnObjects: true }),
   },
 ];
 
