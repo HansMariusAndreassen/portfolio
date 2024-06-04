@@ -25,7 +25,7 @@ const Projects = () => {
                   src={project.image}
                   alt={project.title}
                   className="my-4 rounded-md shadow-md dark:shadow-md dark:shadow-white"
-                  style={{ height: "400px", width: "500px" }}
+                  style={{ height: "auto", width: "600px" }}
                 />
               </div>
               <div>
@@ -38,7 +38,6 @@ const Projects = () => {
                         alt={icon.alt}
                         className="h-8 w-8 mb-1"
                       />
-
                       <p className="text-center text-sm tracking-widest">
                         {icon.title}
                       </p>
