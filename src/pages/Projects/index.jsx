@@ -24,12 +24,13 @@ const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="my-4 "
+                  className="my-4 rounded-md shadow-md dark:shadow-md dark:shadow-white"
+                  style={{ height: "400px", width: "500px" }}
                 />
               </div>
               <div>
                 <h2>{t("builtWith")}:</h2>
-                <div className="flex justify-center gap-5 flex-wrap">
+                <div className="flex flex-wrap justify-start">
                   {project.builtWith.map((icon, index) => (
                     <div key={index} className="my-4">
                       <img
@@ -37,6 +38,7 @@ const Projects = () => {
                         alt={icon.alt}
                         className="h-8 w-8 mb-1"
                       />
+
                       <p className="text-center text-sm tracking-widest">
                         {icon.title}
                       </p>
@@ -62,8 +64,10 @@ const Projects = () => {
                     </a>
                   )}
                 </div>
-                {project.demo && (
-                  <p className="text-sm text-center">{t(project.demoNotes)}</p>
+                {project.demoNotes && (
+                  <p className="text-sm text-center mt-10">
+                    {t(project.demoNotes)}
+                  </p>
                 )}
               </div>
             </div>
