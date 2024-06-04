@@ -36,10 +36,12 @@
     "description": "Dette er eksamensprosjektet mitt for det første året med frontend-utviklingsstudier. Det er en bloggside laget for dette formålet, og alt du leser og ser er fiktivt. Denne siden bruker WordPress REST API for å hente innholdet sitt. Dette prosjektet er laget for å vise frem ferdighetene og evnene vi har oppnådd i løpet av dette første året med studier."
   },
   "connotation": {
-    "description": "Dette prosjektet er en utvidelse av en Bootstrap-oppgave der vi har integrert JavaScript for å forbedre funksjonaliteten til et sosialt medie-nettsted. Den opprinnelige oppgaven brukte primært Bootstrap, og vi har utvidet den ved å inkludere JavaScript-funksjoner."
+    "description": "Dette prosjektet er en utvidelse av en Bootstrap-oppgave der vi har integrert JavaScript for å forbedre funksjonaliteten til et sosialt medie-nettsted. Den opprinnelige oppgaven brukte primært Bootstrap, og vi har utvidet den ved å inkludere JavaScript-funksjoner.",
+    "demoNotes": "NB! Krever login. Bruk e-post: invitedguest@noroff.no, Passord: socialmedia"
   },
   "cyberstore": {
-    "description": "Min første introduksjon til å bygge med React. Stylet med Styled-Components."
+    "description": "Min første introduksjon til å bygge med React. Stylet med Styled-Components.",
+    "demoNotes": "NB! Krever login. Bruk e-post: invitedguest@noroff.no, Passord: auctionhouse"
   },
   "adling": {
     "description": "Et morsomt prosjekt med en bot som henter stillingsannonser fra en nettside og legger dem ut på en Discord-server.",
@@ -48,5 +50,9 @@
   "flutter": {
     "description": "Et Pong-lignende spill jeg bygde med Flutter.",
     "demoNotes": "Krever nedlasting og utpakking av zip-filen. Kjør .exe-filen for å spille spillet."
+  },
+  "havens": {
+    "description": "Havens er et prosjekt utviklet som en del av eksamen i Front-End Development. Prosjektet har som mål å demonstrere ferdigheter i webutvikling ved bruk av moderne verktøy og rammeverk, og å anvende ferdighetene lært over de siste to årene i et omfattende prosjekt.",
+    "demoNotes": "NB! Krever innlogging. Bruk e-post: invitedguest@stud.noroff.no, Passord: 1Havenshavens"
   }
 }

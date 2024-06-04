@@ -55,7 +55,7 @@
     "demoNotes": "Requires download and unpacking of the zip file. Run the .exe file to play the game."
   },
   "havens": {
-    "description": "Havens er et prosjekt utviklet som en del av eksamen i Front-End Development. Prosjektet har som mål å demonstrere ferdigheter i webutvikling ved bruk av moderne verktøy og rammeverk, og å anvende ferdighetene lært over de siste to årene i et omfattende prosjekt.",
-    "demoNotes": "NB! Krever innlogging. Bruk e-post: invitedguest@stud.noroff.no, Passord: 1Havenshavens"
+    "description": "Havens is a project developed as part of the Front-End Development examination. The project aims to demonstrate proficiency in web development using modern tools and frameworks and to take the skills learned over the last two years and take on an extensive project.",
+    "demoNotes": "NB! Requires login. Use email: invitedguest@stud.noroff.no, Password: 1Havenshavens"
   }
 }
