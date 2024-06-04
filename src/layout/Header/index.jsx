@@ -51,7 +51,7 @@ const Header = () => {
             Hans Marius Andreassen
           </h1>
           <h2
-            className="tracking-widest text-shadow-slateblue text-2xl sm:text-4xl md:text-5xl md:-mt-2 lg:-mt-6 xl:-mt-8"
+            className="tracking-widest text-shadow-slateblue text-2xl sm:text-4xl md:text-5xl -mb-3"
             style={{ maxWidth: "100vw" }}
           >
             {t("frontend")}
