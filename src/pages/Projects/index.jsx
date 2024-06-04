@@ -26,7 +26,11 @@ const Projects = () => {
                 <div className="flex justify-center gap-5 flex-wrap">
                   {project.builtWith.map((icon, index) => (
                     <div key={index} className="my-4">
-                      <img src={icon.src} className="h-10 w-10" />
+                      <img
+                        src={icon.src}
+                        alt={icon.alt}
+                        className="h-10 w-10"
+                      />
                       <p className="text-center">{icon.title}</p>
                     </div>
                   ))}

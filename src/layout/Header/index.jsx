@@ -60,7 +60,11 @@ const Header = () => {
             <Hamburger toggled={isOpen} toggle={() => setOpen(!isOpen)} />
           </div>
         </div>
-        <div ref={menuRef} className={`md:flex ${isOpen ? "block" : "hidden"}`}>
+        <div
+          ref={menuRef}
+          className={`md:flex ${isOpen ? "block" : "hidden"}`}
+          aria-label="Burger menu"
+        >
           <ul className="flex flex-col md:flex-row justify-around items-center w-full tracking-widest">
             <li className="px-3 py-2">
               <NavLink
@@ -132,12 +136,16 @@ const Header = () => {
               <LanguageSwitcher />
             </li>
             <li className="px-3 py-2">
-              <label className="inline-flex items-center cursor-pointer">
+              <label
+                className="inline-flex items-center cursor-pointer"
+                aria-label="Toggle theme"
+              >
                 <input
                   type="checkbox"
                   className="hidden"
                   checked={theme === "dark"}
                   onChange={toggleTheme}
+                  aria-label="Toggle theme"
                 />
                 <span className="relative">
                   <span className="block w-10 h-6 bg-gray-400 rounded-full shadow-inner"></span>
