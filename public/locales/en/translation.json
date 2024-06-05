@@ -7,13 +7,13 @@
   "connectWithMe": "Connect with me!",
   "Language": "Language",
   "aboutMe": "About Me",
-  "aboutMeText": "Hi! My name is Hans Marius, but online I'm known as Spookyrumble. I am a passionate and dedicated person who highly values both technology and human relationships.\n\nOne of my biggest interests is cars, motorcycles, and Formula 1. I love the excitement and technology behind motorsports, and I spend a lot of time staying updated on everything happening in this fascinating world.\n\nFor me, politeness and respect for others are very important. I believe that one should always be careful about assuming what others have been through. This makes me an objective and understanding person who always tries to see things from others' perspectives. I believe that most people are good and that everyone deserves respect.\n\nAlthough I am a rather private person, I am very open with my inner circle of friends and family. My children are a great inspiration to me. I learn a lot by observing how they approach the world with curiosity and openness. Their unreserved view of life motivates me to always strive to be a better version of myself.\n\nFriends would describe me as curious, motivated, and always ready to help. I believe in continuous learning and strive to improve myself every day, whether it is mastering a new programming language or exploring a new hobby. I am driven by a desire to innovate and make a positive impact through technology.",
+  "aboutMeText": "Hi! My name is Hans Marius, but online I'm known as Spookyrumble. I am a passionate and dedicated person who greatly values both technology and human relationships.\n\nAlthough I am quite a private person, I am very open with my inner circle of friends and family. My children are a great inspiration to me. I learn a lot from observing how they approach the world with curiosity and openness. Their unreserved view of life motivates me to always strive to be a better version of myself.\n\nFriends would describe me as curious, motivated, and always ready to help. I believe in continuous learning and strive to improve myself every day, whether it's mastering a new programming language or exploring a new hobby. I am driven by a desire to innovate and make a positive impact through technology.",
   "careerBackground": "Career and Background",
   "careerBackgroundText": "I am a proactive Front-End developer with a passion for contributing innovative solutions and strengthening dynamic teams. Currently, I work as a student mentor at Noroff Fagskole, where I have the opportunity to enhance students' motivation and engagement through tailored mentoring styles. This role has provided me with valuable experience in motivating and guiding students.\n\nI possess a sharp eye for detail and excel in identifying issues and imperfections, skills I honed through my experience in car detailing. My background in customer service has equipped me with excellent communication skills, the ability to manage customer relations effectively, and a talent for accurate order processing and follow-up.\n\nAdditionally, I have experience in coordinating service teams and planning work efficiently, which has enhanced my leadership and organizational abilities. My roles in various customer-facing positions have also developed my capability to provide sales support, optimize revenue streams through precise billing, and ensure seamless day-to-day operations. These experiences have collectively endowed me with a versatile skill set in customer service, order management, and team leadership.",
   "educationSkills": "Education and Skills",
   "educationSkillsText": "I hold a Higher Professional Degree in Front-End development from Noroff - School of Technology and Digital Media, where I combined visual design with coding, web development, and UX design. My education has provided me with a solid understanding of how to combine aesthetics and functionality in web design, and I have excelled in coding and UX design with a focus on user-friendly solutions.\n\nMy skills include Front-End development, customer service, and coordination. I am also fluent in both Norwegian and English. Through my education and professional experience, I have developed the ability to work effectively both in teams and independently, and I am always looking for opportunities to grow professionally and develop in-depth knowledge in a collaborative work environment.",
   "interestsHobbies": "Interests and Hobbies",
-  "interestsHobbiesText": "I love traveling and have visited all continents except Antarctica and South America. I find great joy in exploring new cultures and cuisines, which has broadened my perspective and enriched my life. Elk hunting is a favorite activity, providing not only an exhilarating challenge but also an opportunity to connect with nature on a deeper level. I used to snowboard a lot, enjoying the thrill and freedom of gliding down snowy slopes.\n\nNowadays, I spend much of my time on technology, gaming, and coding. I am deeply passionate about creating innovative solutions and continuously improving my skills in frontend development. Gaming is another significant interest, with a particular fondness for role-playing and strategy games that offer complex worlds and intricate narratives. I am also a big fan of Star Wars and Marvel movies, appreciating their rich stories and expansive universes. Additionally, I enjoy spending time with my family and our two dogs, often going on hikes and outdoor adventures. My hobbies reflect my love for both adventure and creativity, balancing physical activities with intellectual pursuits.",
+  "interestsHobbiesText": "I love to travel and have visited all continents except Antarctica and South America. I find great joy in exploring new cultures and cuisines, which has broadened my perspective and enriched my life.\n\nOne of my biggest interests is cars, motorcycles, and Formula 1. I love the excitement and technology behind motorsports, and I spend a lot of time keeping up with everything happening in this fascinating world. Moose hunting is a favorite activity of mine, providing not only an exciting challenge but also an opportunity to connect with nature on a deeper level. I used to snowboard a lot, and I enjoyed the thrill and freedom of gliding down snow-covered slopes.\n\nNowadays, I spend much of my time on technology, gaming, and coding. I am deeply engaged in creating innovative solutions and continually improving my skills in front-end development. Gaming is another significant interest, with a particular fondness for role-playing and strategy games that offer complex worlds and intricate narratives. I am also a big fan of Star Wars and Marvel movies, and I appreciate their rich stories and expansive universes. Additionally, I enjoy spending time with my family and our two dogs, and we often go on trips and outdoor adventures. My hobbies reflect my love for both adventure and creativity, balancing physical activities with intellectual pursuits.",
   "personalityWorkStyle": "Personality and Work Style",
   "personalityWorkStyleText": "I am a person who values integrity and honesty in all aspects of life. I firmly believe that good manners and respect are fundamental values that foster positive relationships both at work and in private life. This approach makes me an empathetic and understanding colleague who is always willing to listen and contribute constructively to any collaboration.\n\nWhen it comes to my work style, I am highly detail-oriented and methodical. I like to work in a structured manner and always plan thoroughly to ensure that I deliver high-quality results in everything I do. My background as a frontend developer has taught me the importance of both aesthetics and functionality, and I strive to find the balance between these two aspects in my work.\n\nI thrive in dynamic teams where creativity and innovation are encouraged. At the same time, I have the ability to work independently and take responsibility for my own projects. I am always on the lookout for new challenges and learning opportunities, and I greatly appreciate a work environment where continuous professional development is a priority. My colleagues describe me as reliable, curious, and always ready to find creative solutions to complex problems.",
   "goalsAmbitions": "Goals and Ambitions",
@@ -21,9 +21,8 @@
   "motto": "Motto",
   "mottoText": "'I don't deal the cards, I just play them.' -This quote is often used in contexts where one makes the best out of situations beyond their control.\n\n'It's better to be a warrior in a garden than a gardener in a war.' - This quote, often attributed to Bruce Lee, reflects the philosophy of being prepared and strong, even in times of peace.",
   "gallery": "Gallery",
-  "welcome": "Welcome to my homepage!",
-  "welcomeText": "On this site, you will find an overview of my projects, skills, and experiences in web development. You can also read about me, my goals, and future plans. Feel free to explore the various sections to learn more about what I have worked on and how I can contribute to your project.\n\nDo not hesitate to get in touch if you have any questions or would like to collaborate!",
-  "thankYou": "Thank you for visiting!",
+  "welcome": "Welcome!",
+  "welcomeText": "On this site, you'll find a overview of my projects, skills, and experiences in web development. You can learn about my background, goals, and future plans.\n\nDon't hesitate to get in touch if you have any questions or if you're interested in collaborating!",
   "explore": "Explore",
   "builtWith": "Built with",
   "links": "Links",
@@ -71,32 +70,31 @@
     ]
   },
   "onlypineapples": {
-    "description": "An Auction site built using Bootstrap and SASS. This project also has Jest Unit testing and E2E testing. It includes bidding features.",
+    "description": "An auction site built using Bootstrap and SASS. The task was to create an auction site with bidding functionality. This project also includes unit testing with Jest and E2E testing.",
     "demoNotes": "NB! Requires a login. Use email: invitedguest@noroff.no, Password: auctionhouse",
     "keyFeatures": [
       "Auction site",
       "Built with Bootstrap and SASS",
-      "Includes Jest Unit testing and E2E testing",
-      "Bidding features",
+      "Includes unit testing with Jest and E2E testing",
+      "Bidding functionality",
       "Requires login for demo",
       "Post listings",
-      "Bidding",
       "Edit profile"
     ]
   },
   "cyberstore": {
-    "description": "My first introduction to building with React. Styled with Styled-Components.",
+    "description": "My first introduction to building with React. The task was to create an e-commerce site that fetches data with an API and has all the functionalities of an online store, including product search and shopping cart. This project provided a thorough understanding of React and its ecosystem. Styled with Styled-Components to ensure a modern and responsive design. The project also required handling product data through APIs.",
     "keyFeatures": [
       "First project with React",
       "Styled with Styled-Components",
-      "Cart functionality",
-      "Profile editing",
-      "Search functionality"
+      "Shopping cart functionality",
+      "Search functionality",
+      "API integration"
     ]
   },
   "adling": {
-    "description": "A fun project bot that pulls job listings from a website and posts them to a Discord server.",
-    "demoNotes": "Set up to work on my discord server. Please read README.md for more information.",
+    "description": "I saw a need for the community server I manage. I wanted a channel that showed new job listings within development, so I built this bot to do just that. Technically, it's a web scraper, but it only fetches open data and adheres to rules and regulations. It is configured to check twice a day. To keep track of the data, it saves new links to listings in a JSON file that the bot then checks the status of. If they are new, they are shared, and 'posted' is set to false so they are not shared more than once. A script is created to purge old links after a selected period.",
+    "demoNotes": "Set up to work on my Discord server. Please read README.md for more information.",
     "keyFeatures": [
       "Bot for pulling job listings",
       "Posts to a Discord server",
@@ -104,8 +102,8 @@
     ]
   },
   "flutter": {
-    "description": "A Pong-like game I built using Flutter.",
-    "demoNotes": "Requires download and unpacking of the zip file. Run the .exe file to play the game.",
+    "description": "A Pong-like game I built using Flutter. This was a side project I did privately in connection with a case study we conducted for school.",
+    "demoNotes": "Requires downloading and unzipping the file. Run the .exe file to play the game.",
     "keyFeatures": [
       "Pong-like game",
       "Built using Flutter",
@@ -113,7 +111,7 @@
     ]
   },
   "havens": {
-    "description": "Havens is a project developed as part of the Front-End Development examination. The project aims to demonstrate proficiency in web development using modern tools and frameworks and to take the skills learned over the last two years and take on an extensive project.",
+    "description": "Havens is an ambitious project developed as part of the Front-End Development examination at Noroff. The assignment was to build an accommodation application, showcasing advanced proficiency in web development while leveraging modern tools and frameworks. The primary goal of Havens is to integrate the skills and knowledge acquired over the last two years into a comprehensive and practical application. This project not only highlights the ability to build responsive and user-friendly interfaces but also demonstrates effective problem-solving, project management, and the application of best practices in coding and design. Through Havens, the aim is to create a seamless and engaging user experience, reflecting the culmination of extensive learning and hands-on experience in front-end development.",
     "demoNotes": "NB! Requires login. Use email: invitedguest@stud.noroff.no, Password: 1Havenshavens",
     "keyFeatures": [
       "Front-End Development examination project",

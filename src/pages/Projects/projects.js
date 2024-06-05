@@ -124,7 +124,7 @@ const projects = (t) => [
   {
     title: "Not-Pong",
     description: t("flutter.description"),
-    image: "/pictures/flutter_ss-compressed.jpg",
+    image: "/pictures/not-pong_2024-06-05 120940.png",
     link: "https://github.com/Spookyrumble/Flutter-game",
     builtWith: [{ src: flutterLogo, title: "Flutter", alt: "Flutter Logo" }],
     demo: t("flutter.demoNotes"),

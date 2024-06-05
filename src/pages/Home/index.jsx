@@ -24,9 +24,6 @@ const Home = () => {
           style={{ width: "296px", height: "308px" }}
         />
       </div>
-      <div className="text-center p-8 rounded-lg">
-        <h1 className="text-4xl font-bold mb-2">{t("thankYou")}</h1>
-      </div>
       <button
         onClick={handleExplore}
         className="px-3 py-1 bg-slateBlue rounded-md text-white shadow-md dark:shadow-white hover:shadow-lg hover:bg-opacity-80 hover:rotate-3 transition ease-in-out duration-200 mt-8"
