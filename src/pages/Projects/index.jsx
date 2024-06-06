@@ -13,9 +13,9 @@ const Projects = () => {
           {projectList.reverse().map((project, index) => (
             <div
               key={index}
-              className="bg-slateBlue bg-opacity-5 dark:bg-opacity-20 dark:shadow-white shadow-sm rounded-md p-4 max-w-screen flex-wrap"
+              className="bg-slateBlue bg-opacity-5 dark:bg-opacity-20 dark:shadow-white shadow-sm rounded-md p-4 max-w-screen flex flex-col flex-wrap gap-10"
             >
-              <h1 className="text-xl uppercase font-semibold mb-4 tracking-wide">
+              <h1 className="text-4xl uppercase font-semibold mb-4 tracking-wide">
                 {project.title}
               </h1>
               <p className="tracking-wide">{project.description}</p>
@@ -35,11 +35,11 @@ const Projects = () => {
                   style={{ height: "auto", width: "600px" }}
                 />
               </div>
-              <div>
+              <div className="block w-full">
                 <h2>{t("builtWith")}:</h2>
-                <div className="flex flex-wrap gap-3">
+                <div className="">
                   {project.builtWith.map((icon, index) => (
-                    <div key={index} className="my-4">
+                    <div key={index} className="inline-block m-4">
                       <img
                         src={icon.src}
                         alt={icon.alt}
@@ -52,8 +52,8 @@ const Projects = () => {
                   ))}
                 </div>
                 <h3>{t("links")}:</h3>
-                <div className="flex justify-center m-4">
-                  <div className="p-2 rounded shadow-md hover:bg-slateBlue hover:text-white dark:shadow-gray-500 hover:shadow-lg hover:rotate-6 transition ease-in-out duration-200">
+                <div className="block">
+                  <div className="inline-block mx-4 p-2 rounded shadow-md hover:bg-slateBlue hover:text-white dark:shadow-gray-500 hover:shadow-lg hover:rotate-6 transition ease-in-out duration-200">
                     <a href={project.link} target="_blank" rel="noreferrer">
                       <FaGithub size={24} />
                       <p>Repository</p>
@@ -64,7 +64,7 @@ const Projects = () => {
                       href={project.demo}
                       target="_blank"
                       rel="noreferrer"
-                      className="shadow-md p-2 rounded hover:bg-slateBlue dark:shadow-gray-500 hover:shadow-lg hover:text-white hover:rotate-6 transition ease-in-out duration-200"
+                      className="inline-block shadow-md p-2 rounded hover:bg-slateBlue dark:shadow-gray-500 hover:shadow-lg hover:text-white hover:rotate-6 transition ease-in-out duration-200"
                     >
                       <FaExternalLinkAlt size={24} /> Demo
                     </a>

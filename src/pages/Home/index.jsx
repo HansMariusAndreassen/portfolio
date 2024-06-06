@@ -12,7 +12,7 @@ const Home = () => {
 
   return (
     <div className="flex flex-col items-center justify-center p-8 -mt-10">
-      <div className="text-left mb-8">
+      <div className="text-center mb-8">
         <h1 className="text-4xl text-center font-bold mb-2">{t("welcome")}</h1>
         <p className=" max-w-xl mx-auto mb-6">{t("welcomeText")}</p>
       </div>
