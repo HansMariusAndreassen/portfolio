@@ -63,7 +63,6 @@ const Header = () => {
           className={`md:flex ${isOpen ? "block" : "hidden"}`}
           aria-label="Burger menu"
         >
-          <span className="sr-only">hamburger </span>
           <ul className="flex flex-col md:flex-row justify-around items-center w-full tracking-widest">
             <li className="px-3 py-2">
               <NavLink
