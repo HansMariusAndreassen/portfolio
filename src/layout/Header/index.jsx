@@ -55,7 +55,7 @@ const Header = () => {
           >
             {t("frontend")}
           </h2>
-          <div className="absolute right-3 top-4 md:hidden !text-black dark:!text-white">
+          <div className="absolute right-3 top-4 md:hidden">
             <Hamburger toggled={isOpen} toggle={handleToggle} />
           </div>
         </div>
