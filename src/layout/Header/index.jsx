@@ -18,10 +18,18 @@ const Header = () => {
     }
   };
 
+  const handleResize = () => {
+    if (window.innerWidth >= 768) {
+      setOpen(false);
+    }
+  };
+
   useEffect(() => {
     document.addEventListener("mousedown", handleClickOutside);
+    window.addEventListener("resize", handleResize);
     return () => {
       document.removeEventListener("mousedown", handleClickOutside);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -55,12 +63,12 @@ const Header = () => {
           >
             {t("frontend")}
           </h2>
-          <div className="absolute right-3 top-4 md:hidden">
+          <div className="fixed right-3 z-20 top-4 md:hidden bg-slateBlue rounded-full bg-opacity-20">
             <Hamburger toggled={isOpen} toggle={handleToggle} />
           </div>
         </div>
         <div
-          className={`md:flex ${isOpen ? "block" : "hidden"}`}
+          className={`md:flex ${isOpen ? "fixed top-0 right-0 transition ease-in-out duration-100 block bg-opacity-90 bg-white dark:bg-black dark:bg-opacity-90 rounded-b-xl pt-14 px-4" : "hidden"}`}
           aria-label="Burger menu"
         >
           <ul className="flex flex-col md:flex-row justify-around items-center w-full tracking-widest">

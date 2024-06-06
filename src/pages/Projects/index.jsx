@@ -52,10 +52,10 @@ const Projects = () => {
                   ))}
                 </div>
                 <h3>{t("links")}:</h3>
-                <div className="block">
+                <div className="block mt-3">
                   <div className="inline-block mx-4 p-2 rounded shadow-md hover:bg-slateBlue hover:text-white dark:shadow-gray-500 hover:shadow-lg hover:rotate-6 transition ease-in-out duration-200">
                     <a href={project.link} target="_blank" rel="noreferrer">
-                      <FaGithub size={24} />
+                      <FaGithub size={20} />
                       <p>Repository</p>
                     </a>
                   </div>
@@ -64,9 +64,9 @@ const Projects = () => {
                       href={project.demo}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-block shadow-md p-2 rounded hover:bg-slateBlue dark:shadow-gray-500 hover:shadow-lg hover:text-white hover:rotate-6 transition ease-in-out duration-200"
+                      className="inline-block shadow-md p-2 rounded hover:bg-slateBlue dark:shadow-gray-500 hover:shadow-lg hover:text-white hover:-rotate-6 transition ease-in-out duration-200"
                     >
-                      <FaExternalLinkAlt size={24} /> Demo
+                      <FaExternalLinkAlt size={20} /> Demo
                     </a>
                   )}
                 </div>
