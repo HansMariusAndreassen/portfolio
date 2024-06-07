@@ -36,7 +36,7 @@ git commit -m "your message"
 
 4. Create a new pull request.
 
-## Contact
+## Contact Me
 
 [LinkedIn](https://www.linkedin.com/in/hans-marius-andreassen/)
 
