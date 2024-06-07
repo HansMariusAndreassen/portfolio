@@ -105,7 +105,7 @@
     "description": "Et Pong-lignende spill jeg bygget ved bruk av Flutter. Dette var et sideprosjekt jeg gjorde privat i sammenheng med en case study vi gjorde for skolen.",
     "demoNotes": "Krever nedlasting og utpakking av zip-filen. Kjør .exe-filen for å spille spillet.",
     "keyFeatures": [
-      "Pong-lignende spill",
+      "Animasjoner",
       "Bygget ved bruk av Flutter",
       "Kjørbar fil for spilling"
     ]

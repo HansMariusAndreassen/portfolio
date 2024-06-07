@@ -105,7 +105,7 @@
     "description": "A Pong-like game I built using Flutter. This was a side project I did privately in connection with a case study we conducted for school.",
     "demoNotes": "Requires downloading and unzipping the file. Run the .exe file to play the game.",
     "keyFeatures": [
-      "Pong-like game",
+      "Animations",
       "Built using Flutter",
       "Executable file for gameplay"
     ]
