@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import profileImage from "../../assets/profile/selfie_cv.jpg";
+import profileImage from "../../assets/profile/portrait.jpeg";
 import { useNavigate } from "react-router-dom";
 
 const Home = () => {
@@ -20,8 +20,7 @@ const Home = () => {
         <img
           src={profileImage}
           alt="Profile"
-          className="mb-8 border-slateBlue border-t-4 border-l-4 shadow-lg"
-          style={{ width: "296px", height: "308px" }}
+          className="mb-8 border-slateBlue border-t-4 border-l-4 shadow-lg w-[250px] h-auto"
         />
       </div>
       <button
